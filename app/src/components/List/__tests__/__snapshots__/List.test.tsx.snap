@@ -1,0 +1,333 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    athlets={
+      Array [
+        Object {
+          "code": "124",
+          "entering": 2,
+          "finish": 1,
+          "full_name": "first name",
+          "id": 2,
+          "start_nr": "124",
+        },
+        Object {
+          "code": "123",
+          "entering": 1,
+          "finish": 2,
+          "full_name": "first name",
+          "id": 1,
+          "start_nr": "123",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ListItem
+          athletFinishTime="Time"
+          athletFullName="Name"
+          athletNumber="Start Nr"
+          place="Place"
+          title={true}
+        />,
+        <FlipMovePropConverter
+          delay={0}
+          disableAllAnimations={false}
+          duration={500}
+          easing="ease-in-out"
+          enterAnimation="accordionVertical"
+          getPosition={[Function]}
+          leaveAnimation="elevator"
+          maintainContainerHeight={false}
+          staggerDelayBy={0}
+          staggerDurationBy="30"
+          typeName="div"
+          verticalAlignment="top"
+        >
+          <ListItem
+            athletFinishTime={1}
+            athletFullName="first name"
+            athletNumber="124"
+            index={0}
+            place={1}
+          />
+          <ListItem
+            athletFinishTime={2}
+            athletFullName="first name"
+            athletNumber="123"
+            index={1}
+            place={2}
+          />
+        </FlipMovePropConverter>,
+      ],
+      "className": "results-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "athletFinishTime": "Time",
+          "athletFullName": "Name",
+          "athletNumber": "Start Nr",
+          "place": "Place",
+          "title": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <ListItem
+              athletFinishTime={1}
+              athletFullName="first name"
+              athletNumber="124"
+              index={0}
+              place={1}
+            />,
+            <ListItem
+              athletFinishTime={2}
+              athletFullName="first name"
+              athletNumber="123"
+              index={1}
+              place={2}
+            />,
+          ],
+          "delay": 0,
+          "disableAllAnimations": false,
+          "duration": 500,
+          "easing": "ease-in-out",
+          "enterAnimation": "accordionVertical",
+          "getPosition": [Function],
+          "leaveAnimation": "elevator",
+          "maintainContainerHeight": false,
+          "staggerDelayBy": 0,
+          "staggerDurationBy": "30",
+          "typeName": "div",
+          "verticalAlignment": "top",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "124",
+            "nodeType": "class",
+            "props": Object {
+              "athletFinishTime": 1,
+              "athletFullName": "first name",
+              "athletNumber": "124",
+              "index": 0,
+              "place": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "123",
+            "nodeType": "class",
+            "props": Object {
+              "athletFinishTime": 2,
+              "athletFullName": "first name",
+              "athletNumber": "123",
+              "index": 1,
+              "place": 2,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ListItem
+            athletFinishTime="Time"
+            athletFullName="Name"
+            athletNumber="Start Nr"
+            place="Place"
+            title={true}
+          />,
+          <FlipMovePropConverter
+            delay={0}
+            disableAllAnimations={false}
+            duration={500}
+            easing="ease-in-out"
+            enterAnimation="accordionVertical"
+            getPosition={[Function]}
+            leaveAnimation="elevator"
+            maintainContainerHeight={false}
+            staggerDelayBy={0}
+            staggerDurationBy="30"
+            typeName="div"
+            verticalAlignment="top"
+          >
+            <ListItem
+              athletFinishTime={1}
+              athletFullName="first name"
+              athletNumber="124"
+              index={0}
+              place={1}
+            />
+            <ListItem
+              athletFinishTime={2}
+              athletFullName="first name"
+              athletNumber="123"
+              index={1}
+              place={2}
+            />
+          </FlipMovePropConverter>,
+        ],
+        "className": "results-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "athletFinishTime": "Time",
+            "athletFullName": "Name",
+            "athletNumber": "Start Nr",
+            "place": "Place",
+            "title": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <ListItem
+                athletFinishTime={1}
+                athletFullName="first name"
+                athletNumber="124"
+                index={0}
+                place={1}
+              />,
+              <ListItem
+                athletFinishTime={2}
+                athletFullName="first name"
+                athletNumber="123"
+                index={1}
+                place={2}
+              />,
+            ],
+            "delay": 0,
+            "disableAllAnimations": false,
+            "duration": 500,
+            "easing": "ease-in-out",
+            "enterAnimation": "accordionVertical",
+            "getPosition": [Function],
+            "leaveAnimation": "elevator",
+            "maintainContainerHeight": false,
+            "staggerDelayBy": 0,
+            "staggerDurationBy": "30",
+            "typeName": "div",
+            "verticalAlignment": "top",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "124",
+              "nodeType": "class",
+              "props": Object {
+                "athletFinishTime": 1,
+                "athletFullName": "first name",
+                "athletNumber": "124",
+                "index": 0,
+                "place": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "123",
+              "nodeType": "class",
+              "props": Object {
+                "athletFinishTime": 2,
+                "athletFullName": "first name",
+                "athletNumber": "123",
+                "index": 1,
+                "place": 2,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

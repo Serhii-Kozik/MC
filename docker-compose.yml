@@ -1,0 +1,49 @@
+version: '3'
+
+services:
+
+  ########################
+  # Server
+  ########################
+
+  server:
+    build: ./server
+    image: mc-server:1.0
+    expose:
+      - 3355
+    ports:
+      - 3355:3355
+    command: npm run start
+
+  ########################
+  # Frontend
+  ########################
+
+  client:
+    build: 
+      context: ./app
+    image: mc-app:1.0
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
+    depends_on:
+      - server
+
+    command: npm run start
+
+  ########################
+  # Simulator
+  ########################
+
+  simulator:
+    build: ./simulator
+    image: mc-simulator:1.0
+    environment:
+      SERVER_HOST: server
+    depends_on:
+      - server
+    links:
+      - server
+    
+    command: npm run start

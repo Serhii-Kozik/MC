@@ -1,0 +1,26 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "description": "Simulator of RFID checkpoint registrator",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "ts-node-dev --respawn --transpileOnly src/index.ts"
+  },
+  "keywords": [
+    "checkpoint",
+    "simulator"
+  ],
+  "author": "SerhiiKo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/ws": "^6.0.1",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
